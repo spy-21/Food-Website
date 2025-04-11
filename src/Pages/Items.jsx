@@ -50,7 +50,7 @@ const recipes = [
 
 const Items = () => {
   return (
-    <div className="items mt-16 px-4 pt-10">
+    <div className="items mt-16 px-4 pt-16">
       <h1 className="text-3xl font-bold text-center mb-2">Our Items</h1>
       <p className="text-center text-gray-600 mb-10">
         Explore our delicious recipes!
@@ -59,7 +59,7 @@ const Items = () => {
         {recipes.map((recipe, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+            className="bg-white  shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
           >
             <img
               src={recipe.image}

@@ -2,8 +2,8 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="about mt-16 px-4 py-10 max-w-6xl mx-auto space-y-16">
-      <h1 className="text-4xl font-bold text-center mb-6">About Us</h1>
+    <div className="about mt-16 px-4 py-16 max-w-6xl mx-auto space-y-16">
+      <h1 className="text-4xl font-bold text-left mb-6">About Us</h1>
 
       {/* Section 1 */}
       <div className="flex flex-col md:flex-row items-center gap-8">

@@ -8,6 +8,7 @@ import Header from "./compontents/Header";
 import "./App.css";
 import Footer from "./compontents/Footer";
 import Items from "./Pages/Items";
+import NotFound from "./Pages/NotFound";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/items" element={<Items />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
